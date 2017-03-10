@@ -1,0 +1,38 @@
+/*
+    Created on : 29/12/2016, 10:10:18 AM
+    Author     : Aph
+*/
+
+
+@media screen and (max-width: 1000px) {
+    /* Tamaño de letra de las opciones del menú lateral */
+    .navigatorOption {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    /* Mostrar el botón para abrir/cerrar el menú responsivo */
+    .sidebarButton {
+        display: block;
+    }
+
+    /* Ocultar el menú lateral */
+    .navigatorMenu {
+        display: none;
+    }
+
+    /* Establecer  */
+    .header {
+        left: 0%;
+        width: 100%;
+    }
+
+    /**/
+
+    .headerUser {
+        left: 100px;
+        width: 100%;
+    }
+}
